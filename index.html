@@ -1,98 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Best Deal Shipping Services - Sea freight solutions, FCL and LCL from Saudi Arabia to worldwide destinations.">
-  <title>Best Deal Shipping Services | Sea Freight Worldwide</title>
-  <style>
-    :root { --navy:#102a43; --blue:#0878b9; --light:#f3f7fb; --ink:#243b53; --muted:#627d98; --white:#fff; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); line-height:1.6; background:var(--white); }
-    header { background:var(--navy); color:white; padding:18px 6%; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
-    .brand { font-size:20px; font-weight:700; letter-spacing:.2px; }
-    nav a { color:white; text-decoration:none; margin-left:18px; font-size:14px; }
-    .hero { padding:76px 6%; color:white; background:linear-gradient(120deg,rgba(16,42,67,.96),rgba(8,120,185,.83)); }
-    .hero-inner { max-width:1080px; margin:auto; }
-    .eyebrow { text-transform:uppercase; letter-spacing:2px; font-size:12px; font-weight:bold; color:#b9e6ff; }
-    h1 { font-size:clamp(34px,6vw,56px); line-height:1.12; max-width:760px; margin:12px 0 18px; }
-    .hero p { max-width:680px; font-size:18px; color:#e8f3fb; }
-    .button { display:inline-block; margin-top:18px; padding:13px 22px; border-radius:7px; background:#fff; color:var(--navy); font-weight:bold; text-decoration:none; }
-    section { padding:58px 6%; }
-    .wrap { max-width:1080px; margin:auto; }
-    h2 { color:var(--navy); font-size:30px; margin:0 0 12px; }
-    .intro { color:var(--muted); max-width:720px; margin:0 0 28px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
-    .service { background:var(--light); border-radius:12px; padding:24px; border:1px solid #e2eaf2; }
-    .service h3 { color:var(--navy); margin:0 0 8px; }
-    .service p { color:var(--muted); margin:0; }
-    .band { background:var(--light); }
-    .contact { background:var(--navy); color:white; }
-    .contact h2 { color:white; }
-    .contact p { color:#d9e7f2; }
-    .contact a { color:white; }
-    footer { background:#0b1f33; color:#c4d3df; text-align:center; padding:18px 6%; font-size:13px; }
-    @media (max-width:600px) { header { align-items:flex-start; } nav { width:100%; } nav a { margin:0 14px 0 0; } .hero { padding:58px 6%; } section { padding:44px 6%; } }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Best Deal Shipping Services - FCL, LCL and worldwide sea freight solutions.">
+<title>Best Deal Shipping Services</title>
+
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#20364b;line-height:1.6}
+header{background:#08243e;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px;font-size:19px;font-weight:bold}
+.logo-mark{background:#08a6d6;color:white;padding:9px;border-radius:8px;font-size:20px}
+nav a{color:white;text-decoration:none;margin:0 10px;font-size:14px}
+.hero{background:linear-gradient(90deg,rgba(5,29,51,.92),rgba(5,29,51,.48)),url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1800&q=85') center/cover;color:white;padding:105px 7%}
+.hero-content{max-width:760px}
+.eyebrow{color:#65d7f4;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(36px,6vw,58px);line-height:1.12;margin:14px 0}
+.hero p{font-size:18px;color:#e5f2fa}
+.btn{display:inline-block;background:#08a6d6;color:white;padding:13px 23px;border-radius:6px;text-decoration:none;font-weight:bold;margin-top:16px}
+section{padding:65px 7%}
+.wrap{max-width:1100px;margin:auto}
+h2{font-size:32px;color:#082b49;margin-top:0}
+.intro{color:#687e91;max-width:720px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:#f2f7fa;padding:27px;border-radius:12px;border:1px solid #e0eaf0}
+.card h3{color:#087eae}
+.card p{color:#64798b}
+.band{background:#edf5f9}
+.coverage{background:linear-gradient(120deg,#08243e,#087eae);color:white}
+.coverage h2{color:white}
+.coverage p{color:#e1f1fa}
+.contact{background:#08243e;color:white;text-align:center}
+.contact h2{color:white}
+.contact p{color:#d6e8f4}
+.contact a{color:white}
+footer{background:#06192b;color:#c5d5e0;text-align:center;padding:20px;font-size:13px}
+@media(max-width:600px){
+header{gap:15px}
+nav{width:100%}
+nav a{margin:0 12px 0 0}
+.hero{padding:75px 7%}
+section{padding:48px 7%}
+}
+</style>
 </head>
+
 <body>
-  <header>
-    <div class="brand">Best Deal Shipping Services</div>
-    <nav aria-label="Main navigation">
-      <a href="#services">Services</a>
-      <a href="#coverage">Coverage</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+<div class="logo">
+<span class="logo-mark">BD</span>
+<span>Best Deal Shipping Services</span>
+</div>
+<nav>
+<a href="#services">Services</a>
+<a href="#coverage">Coverage</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <div class="eyebrow">Sea Freight • FCL • LCL</div>
-        <h1>Shipping solutions from Saudi Arabia to the world</h1>
-        <p>Supporting freight forwarders and logistics partners with sea freight services, including Full Container Load (FCL) and Less than Container Load (LCL).</p>
-        <a class="button" href="https://wa.me/923313988941" target="_blank" rel="noopener">Contact us on WhatsApp</a>
-      </div>
-    </section>
+<main>
+<div class="hero">
+<div class="hero-content">
+<div class="eyebrow">SEA FREIGHT • FCL • LCL</div>
+<h1>Your Shipping Partner from Saudi Arabia to the World</h1>
+<p>Reliable sea freight solutions and international logistics partnerships for freight forwarders and businesses.</p>
+<a class="btn" href="https://wa.me/923313988941">Contact Us on WhatsApp</a>
+</div>
+</div>
 
-    <section id="services">
-      <div class="wrap">
-        <h2>Our Services</h2>
-        <p class="intro">Practical sea freight options for businesses and logistics partners.</p>
-        <div class="grid">
-          <article class="service">
-            <h3>FCL – Full Container Load</h3>
-            <p>Container shipping solutions for shipments requiring a dedicated container.</p>
-          </article>
-          <article class="service">
-            <h3>LCL – Less than Container Load</h3>
-            <p>Consolidated sea freight options for cargo that does not require a full container.</p>
-          </article>
-          <article class="service">
-            <h3>Freight Forwarder Partnerships</h3>
-            <p>Working with overseas freight forwarders and logistics partners to support shipping requirements.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+<section id="services">
+<div class="wrap">
+<h2>Our Shipping Services</h2>
+<p class="intro">Flexible sea freight solutions to support your international cargo requirements.</p>
+<div class="grid">
+<div class="card">
+<h3>FCL Shipping</h3>
+<p>Full Container Load solutions for dedicated container shipments.</p>
+</div>
+<div class="card">
+<h3>LCL Shipping</h3>
+<p>Consolidated cargo solutions for shipments that do not require a full container.</p>
+</div>
+<div class="card">
+<h3>Global Partnerships</h3>
+<p>Building professional relationships with overseas freight forwarders and logistics companies.</p>
+</div>
+</div>
+</div>
+</section>
 
-    <section id="coverage" class="band">
-      <div class="wrap">
-        <h2>Saudi Arabia to Worldwide Destinations</h2>
-        <p class="intro">Sea freight support from Saudi Arabia's ports, with worldwide destination coverage subject to route, carrier, and cargo requirements. Contact us to discuss your shipment.</p>
-      </div>
-    </section>
+<section id="coverage" class="coverage">
+<div class="wrap">
+<h2>Saudi Arabia to Worldwide Destinations</h2>
+<p>Supporting export cargo from Saudi Arabia's ports to international destinations, subject to route and carrier availability.</p>
+</div>
+</section>
 
-    <section id="contact" class="contact">
-      <div class="wrap">
-        <h2>Let's discuss your shipment</h2>
-        <p>For FCL, LCL, or freight-forwarding partnership enquiries, contact our team on WhatsApp.</p>
-        <p><strong>WhatsApp:</strong> <a href="https://wa.me/923313988941" target="_blank" rel="noopener">+92 331 398 8941</a></p>
-        <a class="button" href="https://wa.me/923313988941" target="_blank" rel="noopener">Send a WhatsApp message</a>
-      </div>
-    </section>
-  </main>
+<section class="band">
+<div class="wrap">
+<h2>Let's Build a Shipping Partnership</h2>
+<p class="intro">We welcome enquiries from international freight forwarders, NVOCCs and logistics partners interested in Saudi Arabia export services.</p>
+<a class="btn" href="https://wa.me/923313988941">Discuss a Partnership</a>
+</div>
+</section>
 
-  <footer>© 2026 Best Deal Shipping Services. All rights reserved.</footer>
+<section id="contact" class="contact">
+<div class="wrap">
+<h2>Contact Best Deal Shipping Services</h2>
+<p>WhatsApp: +92 331 398 8941</p>
+<p>Email: bestdealshipservices@gmail.com</p>
+<a class="btn" href="https://wa.me/923313988941">Message Us on WhatsApp</a>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Best Deal Shipping Services. All rights reserved.</footer>
 </body>
 </html>
